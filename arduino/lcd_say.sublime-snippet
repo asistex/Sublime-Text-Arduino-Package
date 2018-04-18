@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+lcd.setCursor( ${1:nCol} -1, ${2:nRow} -1 ), lcd.print( ${3:cString} ); /* base 1 = nCol -1 , nRow -1 */
+]]></content>
+    <tabTrigger>lcdsay</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Arduino lcdSay()</description>
+</snippet>

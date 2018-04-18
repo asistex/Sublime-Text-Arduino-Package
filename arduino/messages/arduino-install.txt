@@ -1,0 +1,11 @@
+Thank you for installing sublime-arduino
+
+
+Installation
+============
+
+
+Note
+==============
+* Pull requests are welcome
+* Report issues here: https://github.com/asistex/Sublime-Text-Arduino-Package/issues/

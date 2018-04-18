@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+lcd.setCursor( ${1:nCol} -1, ${2:nRow} -1 ); /* base 1 = nCol -1 , nRow -1 */
+]]></content>
+    <tabTrigger>lcdcursor</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Arduino lcdcursor()</description>
+</snippet>
