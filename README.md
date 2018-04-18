@@ -13,9 +13,10 @@ Contributions to this package are welcome.
 #### Download the package
 * Download the files using the GitHub [.zip download option] **Sublime-Text-Arduino-Package-master.zip**
 
-#### Instalacion manual
+#### Manual instalation. 
 
-* From Sublime main menu, click on: Preferences > Browse Packages. This will open the windows explorer in the Sublime preferences folder.
+* From Sublime main menu, click on: Preferences > Browse Packages. This will open the windows explorer in the Sublime preferences folder, usually is **\Sublime Text 3\Packages\ **.
+* Close Sublime Text 3.
 * Copy or move the downloaded file to **\Sublime Text 3\Packages\ **
 * Unzip the package there.  This will create a folder named **arduino**
 * Move (drag) the file **arduino.sublime-package** to the folder **.\Sublime Text 3\Installed Packages\ **
