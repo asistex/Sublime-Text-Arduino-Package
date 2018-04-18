@@ -1,0 +1,12 @@
+# To validate, run:
+#   'git ls-files -i --exclude-standard'
+
+# build generated files
+bak/*/
+*.zip
+*.7z
+git-1.hb
+*.log
+
+# misc junk
+LICENSE
