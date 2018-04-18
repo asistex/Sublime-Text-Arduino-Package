@@ -1,0 +1,24 @@
+Thank you for installing sublime-harbour
+
+
+
+bcd
+
+
+
+
+
+Installation
+============
+To use this package as the default, you must disable the built-in C++ package.
+
+
+
+C/H Extensions
+==============
+
+
+Note: The current version is an early release with only minimal support
+* Pull requests welcome!
+* Report issues here: https://github.com/
+* Or just hit me up on twitter:
