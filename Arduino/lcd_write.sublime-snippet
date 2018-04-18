@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-lcd.setCursor( ${1:nCol} -1, ${2:nRow} -1 ), lcd.write( ${3:cString} ); /* base 1 = nCol -1 , nRow -1 */
-]]></content>
-    <tabTrigger>lcdwrite</tabTrigger>
-    <scope>source.arduino</scope>
-    <description>Arduino lcdWrite()</description>
-</snippet>
