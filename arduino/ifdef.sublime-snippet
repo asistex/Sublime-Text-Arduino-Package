@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-ifdef ${1:constant-expression}
+#ifdef ${1:constant-expression}
 ]]></content>
     <tabTrigger>ifdef</tabTrigger>
     <scope>source.arduino</scope>

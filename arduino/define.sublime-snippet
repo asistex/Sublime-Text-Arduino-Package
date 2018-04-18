@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-define ${1:IDENTIFIER} ${2:string}
+#define ${1:IDENTIFIER} ${2:string}
 ]]></content>
     <tabTrigger>define</tabTrigger>
     <scope>source.arduino</scope>

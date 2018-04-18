@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-tone(${1:pin}, ${2:frequency}, ${3:duration});
+tone( ${1:pin}, ${2:frequency}, ${3:duration} );
 ]]></content>
     <tabTrigger>tone</tabTrigger>
     <scope>source.arduino</scope>

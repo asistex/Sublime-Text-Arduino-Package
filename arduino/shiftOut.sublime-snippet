@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-shiftOut(${1:dataPin}, ${2:clockPin}, ${3:bitOrder}, ${4:value});
+shiftOut( ${1:dataPin}, ${2:clockPin}, ${3:bitOrder}, ${4:value} );
 ]]></content>
     <tabTrigger>shiftOut</tabTrigger>
     <scope>source.arduino</scope>

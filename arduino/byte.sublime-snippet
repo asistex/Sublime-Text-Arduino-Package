@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-byte(${1:x});
+byte( ${1:x} );
 ]]></content>
     <tabTrigger>byte</tabTrigger>
     <scope>source.arduino</scope>

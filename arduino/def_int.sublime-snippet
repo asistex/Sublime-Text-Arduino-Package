@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-int( ${1:x} );
+${1:unsigned} int ${2:x} = ${3:value};
 ]]></content>
     <tabTrigger>int</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino int()</description>
+    <description>Arduino def int</description>
 </snippet>

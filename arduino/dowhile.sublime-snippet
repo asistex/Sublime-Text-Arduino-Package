@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-do{
-    ${1:// statement block}
-} while (${2:test condition});
+do
+{
+    ${1:// code}
+} while( ${2:condition} );
 
 ]]></content>
     <tabTrigger>dowhile</tabTrigger>

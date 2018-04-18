@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-char(${1:x});
+char( ${1:x} );
 ]]></content>
     <tabTrigger>char</tabTrigger>
     <scope>source.arduino</scope>

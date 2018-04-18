@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-void serialEvent(){
-    ${1://statements}
+void serialEvent()
+{
+    ${1://code}
 }
 ]]></content>
     <tabTrigger>sevent</tabTrigger>

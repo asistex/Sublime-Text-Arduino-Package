@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Serial.print(${1:val}, ${2:format});
+Serial.print( ${1:val}, ${2:format} );
 ]]></content>
     <tabTrigger>sprint</tabTrigger>
     <scope>source.arduino</scope>

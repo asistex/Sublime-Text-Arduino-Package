@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Serial.findUntil(${1:target}, ${2:terminal});
+Serial.findUntil( ${1:target}, ${2:terminal} );
 ]]></content>
     <tabTrigger>sfindUntil</tabTrigger>
     <scope>source.arduino</scope>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-sqrt(${1:x});
+sqrt( ${1:nValue} );
 ]]></content>
     <tabTrigger>sqrt</tabTrigger>
     <scope>source.arduino</scope>

@@ -1,7 +1,7 @@
 # Sublime-Text-Arduino-Package
 Sublime Text and Arduino
 
-This package has Arduino functions with their sintax.
+This package has Arduino functions with the syntax.
 
 If you encounter a bug, please create an issue here:
 https://github.com/asistex/Sublime-Text-Arduino-Package/issues  **New Issue**
