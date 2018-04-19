@@ -6,7 +6,7 @@ This package has Arduino functions with the syntax.
 If you encounter a bug, please create an issue here:
 https://github.com/asistex/Sublime-Text-Arduino-Package/issues  **New Issue**
 
-*License GNU General Public License v3.0*
+***License MIT***
 
 Contributions to this package are welcome.
 
@@ -25,6 +25,7 @@ B- [Downloading the zip package](#downloading-the-zip-package)
    You must have installed Git tools.
 
    With this method you can get updates of this package using the Git command.
+
    **git pull** from the command line.
 
 * 1- Open Sublime Text
