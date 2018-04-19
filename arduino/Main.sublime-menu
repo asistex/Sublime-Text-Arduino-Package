@@ -1,0 +1,51 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "arduino",
+                        "children":
+                        [
+                            {
+                                "caption": "Arduino Documents",
+                                "command": "open_url",
+                                "args": {"url": "https://www.arduino.cc/en/Reference/HomePage"}
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Sublime-Text-Arduino-Package/arduino/messages/arduino-notes.md"},
+                                "caption": "my notes of arduino"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/arduino/arduino.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/arduino.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/arduino/messages/arduino-install.txt"},
+                                "caption": "Install message"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+
