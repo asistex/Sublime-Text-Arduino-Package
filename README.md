@@ -32,7 +32,7 @@ B- [Downloading the zip package](#downloading-the-zip-package)
 * 3- Open the command prompt here. Windows cmd
 * 4- Copy the following command:
      git clone https://github.com/asistex/Sublime-Text-Arduino-Package.git
-* 5- Press Enter
+* 5- Paste it at the command prompt and press Enter
 * 6- Thats all.
 * 7- Optionally you can copy the file **arduino.sublime-package** to the folder **.\Sublime Text 3\Installed Packages\**
 
