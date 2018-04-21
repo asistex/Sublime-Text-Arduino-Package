@@ -8,7 +8,7 @@ https://github.com/asistex/Sublime-Text-Arduino-Package/issues  **New Issue**
 
 ***License MIT***
 
-Parts of this package with minor changes are from Stino package. Copyright (C) 2012-2017 Sen <robot.will.me AT gmail.com>.
+Parts of this package with some changes are from Stino package. Copyright (C) 2012-2017 Sen <robot.will.me AT gmail.com>.
 
 
 Contributions to this package are welcome.
@@ -36,7 +36,7 @@ B- [Downloading the zip package](#downloading-the-zip-package)
      git clone https://github.com/asistex/Sublime-Text-Arduino-Package.git
 * 5- Paste it at the command prompt and press Enter
 * 6- Thats all.
-* 7- Optionally you can copy the file **arduino.sublime-package** to the folder **.\Sublime Text 3\Installed Packages\**
+
 
 
 
@@ -51,4 +51,7 @@ B- [Downloading the zip package](#downloading-the-zip-package)
 * Open Sublime, load a file .ino . Click on the right bottom corner of Sublime and
   select from the list **arduino**
 
+Open Sublime, load a file .ino, click the label on the statusbar at the right corner and select **arduino** from the list.
+   If the statusbar is hidden then goto **Main menu > View > Syntax**
+   
 ***Carlos.  Asistex***

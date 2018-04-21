@@ -3,6 +3,7 @@ Thank you for installing sublime-arduino
 
 Installation
 ============
+read the file readme.md
 
 
 Note
