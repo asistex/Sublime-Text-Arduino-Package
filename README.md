@@ -8,7 +8,7 @@ https://github.com/asistex/Sublime-Text-Arduino-Package/issues  **New Issue**
 
 ***License MIT***
 
-Parts of this package are from Stino package. Copyright (C) 2012-2017 Sen <robot.will.me AT gmail.com>.
+Parts of this package with minor changes are from Stino package. Copyright (C) 2012-2017 Sen <robot.will.me AT gmail.com>.
 
 
 Contributions to this package are welcome.
