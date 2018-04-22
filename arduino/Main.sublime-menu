@@ -42,11 +42,16 @@
                 "command": "open_url",
                 "args": {"url": "https://www.arduino.cc/en/Reference/HomePage/"}
             },
-            { "caption": "-" },
             {
-                "caption": "my notes of arduino",
+                "caption": "my notes",
                 "command": "open_file",
                 "args": {"file": "${packages}/Sublime-Text-Arduino-Package/arduino/messages/arduino-notes.md"}
+            },
+            { "caption": "-" },
+            {
+                "caption": "Edit this menu",
+                "command": "open_file",
+                "args": {"file": "${packages}/Sublime-Text-arduino-Package/arduino/Main.sublime-menu"}
             }
         ]
     }        

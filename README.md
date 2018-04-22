@@ -30,12 +30,13 @@ B- [Downloading the zip package](#downloading-the-zip-package)
    With this method you can get updates of this package using the Git command: **git pull** from the command line.
 
 * 1- Open Sublime Text
-* 2- From Sublime main menu, click on: Preferences > Browse Packages. This will open the windows explorer in the Sublime preferences folder, usually is **\Sublime Text 3\Packages\**.
-* 3- Open the command prompt here. Windows cmd
-* 4- Copy the following command:
-     git clone https://github.com/asistex/Sublime-Text-Arduino-Package.git
-* 5- Paste it at the command prompt and press Enter
-* 6- Thats all.
+* 2- From Sublime main menu, click on: Preferences > Browse Packages. This will open the windows explorer in the Sublime preferences folder, usually is  .\Sublime Text 3\Packages\ 
+* 3- Close Sublime Text 3.
+* 4- Open the command prompt here.  **C:\....\Sublime Text 3\Packages>**
+* 5- Copy the following command:  **git clone https://github.com/asistex/Sublime-Text-Arduino-Package.git**
+* 6- Paste it at the command prompt and press Enter
+* 7- While Sublime is not running delete the session file  **.\Sublime Text 3\Local\Session.sublime_session** and if exist also delete **.\Sublime Text 3\Local\Auto Save Session.sublime_session**
+* 8- Open Sublime, load a file .ino . Click the label on the statusbar at the right corner and select **arduino** from the list. If the statusbar is hidden then goto **Main menu > View > Syntax**
 
 
 
@@ -45,13 +46,11 @@ B- [Downloading the zip package](#downloading-the-zip-package)
 * Download the files using the GitHub [.zip download option] **https://github.com/asistex/Sublime-Text-Arduino-Package/archive/master.zip**
 * From Sublime main menu, click on: Preferences > Browse Packages. This will open the windows explorer in the Sublime preferences folder, usually is **\Sublime Text 3\Packages\ **.
 * Close Sublime Text 3.
-* Copy or move the downloaded file to **\Sublime Text 3\Packages\ **
+* Copy or move the downloaded file to * \Sublime Text 3\Packages\ *
 * Unzip the package there.  This will create a folder named **arduino**
-* Move (drag) the file **arduino.sublime-package** to the folder **.\Sublime Text 3\Installed Packages\ **
+* Move (drag) the file **arduino.sublime-package** to the folder  .\Sublime Text 3\Installed Packages\ .
 * Open Sublime, load a file .ino . Click on the right bottom corner of Sublime and
   select from the list **arduino**
 
-Open Sublime, load a file .ino, click the label on the statusbar at the right corner and select **arduino** from the list.
-   If the statusbar is hidden then goto **Main menu > View > Syntax**
    
 ***Carlos.  Asistex***
