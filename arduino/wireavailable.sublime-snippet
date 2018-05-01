@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.available();
+]]></content>
+    <tabTrigger>wireavailable</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.available()</description>
+</snippet>

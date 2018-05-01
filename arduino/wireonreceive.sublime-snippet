@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.onReceive( ${1:receiveEvent} );
+]]></content>
+    <tabTrigger>wireonReceive</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.onReceive()</description>
+</snippet>

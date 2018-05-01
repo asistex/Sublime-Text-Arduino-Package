@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+toCharArray( ${1:floatbuf}, ${2:sizeof(floatbuf)} );
+]]></content>
+    <tabTrigger>toCharArray</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>toCharArray()</description>
+</snippet>

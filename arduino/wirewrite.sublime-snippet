@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.write( ${1:(int)(address >> 8)} );
+]]></content>
+    <tabTrigger>wirewrite</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.write()</description>
+</snippet>

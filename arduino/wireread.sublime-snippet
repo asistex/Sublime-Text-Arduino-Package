@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.read();
+]]></content>
+    <tabTrigger>writeread</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.read()</description>
+</snippet>

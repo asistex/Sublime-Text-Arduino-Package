@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.requestFrom( ${1:EEPROM_I2C_ADDRESS}, ${2:val} );
+]]></content>
+    <tabTrigger>wirerequestfrom</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.requestFrom()</description>
+</snippet>

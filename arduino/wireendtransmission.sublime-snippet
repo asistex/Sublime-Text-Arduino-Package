@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.endTransmission();
+]]></content>
+    <tabTrigger>wireendtransmission</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.endTransmission()</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.beginTransmission( ${1:EEPROM_I2C_ADDRESS} );
+]]></content>
+    <tabTrigger>wirebegintransmission</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.beginTransmission()</description>
+</snippet>

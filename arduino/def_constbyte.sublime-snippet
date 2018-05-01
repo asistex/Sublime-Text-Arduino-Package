@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+const byte ${1:x} = ${2:value};
+]]></content>
+    <tabTrigger>constbyte</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>def const byte</description>
+</snippet>

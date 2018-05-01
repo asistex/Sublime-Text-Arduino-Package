@@ -57,19 +57,19 @@ contexts:
     - match: (?i)\b(?:analogReference|analogRead|analogWrite|analogReadResolution|analogWriteResolution|attachInterrupt|alltrim|at|available)\b
       comment: funciones A
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:begin|bitRead|bitWrite|bitSet|bitClear|bit)\b
+    - match: (?i)\b(?:begin|bitRead|bitWrite|bitSet|bitClear|bit|byte|begintransmission)\b
       comment: funciones B
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:constrain|cos)\b
+    - match: (?i)\b(?:constrain|cos|const)\b
       comment: funciones C
       scope: support.function.basic.arduino
     - match: (?i)\b(?:digitalWrite|digitalRead|delay|delayMicroseconds|detachInterrupt|delstr)\b
       comment: funciones D
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:end)\b
+    - match: (?i)\b(?:endtransmission|end)\b
       comment: funciones E
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:flush|finduntil|find)\b
+    - match: (?i)\b(?:flush|finduntil|find|float)\b
       comment: funciones F
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)\b
@@ -96,41 +96,41 @@ contexts:
     - match: (?i)\b(?:noTone|noInterrupts)\b
       comment: funciones N
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:)\b
+    - match: (?i)\b(?:onreceive)\b
       comment: funciones O
       scope: support.function.basic.arduino
     - match: (?i)\b(?:parseint|parsefloat|pinMode|peek|pow|pulseIn|println|print)\b
       comment: funciones P
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)\b
-      comment: funciones q
+      comment: funciones Q
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:randomSeed|random|read|readbytes|readbytesuntil|rat|remove)\b
-      comment: funciones r
+    - match: (?i)\b(?:readstring|randomSeed|random|read|readbytes|readbytesuntil|rat|remove|requestfrom)\b
+      comment: funciones R
       scope: support.function.basic.arduino
     - match: (?i)\b(?:setcursor|shiftOut|shiftIn|sqrt|sin|substr|setstrat|substring|setcharat|serialevent|settimeout|setup)\b
-      comment: funciones s
+      comment: funciones S
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:tan|tone|toint|tolowercase|touppercase|trim)\b
-      comment: funciones t
+    - match: (?i)\b(?:tan|tone|toint|tolowercase|touppercase|trim|tochararray)\b
+      comment: funciones T
       scope: support.function.basic.arduino
     - match: (?i)\b(?:upper)\b
-      comment: funciones u
+      comment: funciones U
       scope: support.function.basic.arduino
     - match: (?i)\b(?:val)\b
-      comment: funciones v
+      comment: funciones V
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:write)
-      comment: funciones w
+    - match: (?i)\b(?:wire|write)
+      comment: funciones W
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)
-      comment: funciones x
+      comment: funciones X
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)\b
-      comment: funciones y
+      comment: funciones Y
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)
-      comment: funciones z
+      comment: funciones Z
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)\b
       comment: funciones __indocumentadas
