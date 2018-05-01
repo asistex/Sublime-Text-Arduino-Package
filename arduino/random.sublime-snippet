@@ -4,5 +4,5 @@ random( ${1:min}, ${2:max} );
 ]]></content>
     <tabTrigger>random</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino random()</description>
+    <description>random()</description>
 </snippet>

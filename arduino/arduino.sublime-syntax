@@ -1,0 +1,228 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: arduino
+file_extensions: [ino, pde]
+scope: source.arduino
+contexts:
+  main:
+    - match: |-
+        (?ix)
+        \s*(function|procedure)
+        \s*([_$a-zA-Z][$\w]*)?\s*
+      comment: "e.g. function play(arg1, arg2) {  }"
+      captures:
+        1: storage.type.function.arduino
+        2: entity.name.function.arduino
+      push:
+        - meta_scope: meta.function.arduino
+        - match: (?<=\)|\n)
+          pop: true
+    - match: '\b(((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?))'
+      comment: nÃºmeros
+      scope: constant.numeric.arduino
+    - match: "'[^']*'"
+      comment: cadenas comillas simples
+      scope: string.quoted.single.arduino
+    - match: '("[^"]*")'
+      comment: cadenas comillas dobles
+      scope: string.quoted.double.arduino
+    - match: (?i)\b(?:define|do|case|endcase|otherwise|switch|if|else|else if|endif|while|end|exit|return|for|next|include|ifdef|stdout|ifndef)\b
+      comment: sentencias de control
+      scope: keyword.control.arduino
+    - match: (?i)\b(?:HIGH|LOW|INPUT|OUTPUT|INPUT_PULLUP|LED_BUILTIN)\b
+      comment: sentencias de control
+      scope: keyword.control.arduino
+    - match: (?i)\b(?:and|or|not|!)\b
+      comment: operadores
+      scope: keyword.operator.arduino
+    - match: (?i)\b(?:default|field|static|external|request|private|global|int|unsigned|char|long|void|boolean|word|string|string|array|serial|stream|keyboard|mouse|print|lcd)\b
+      comment: declaraciones
+      scope: storage.type.arduino
+    - match: /\*
+      comment: in-line comment with /* */
+      captures:
+        0: punctuation.definition.comment.arduino
+      push:
+        - meta_scope: comment.block.arduino
+        - match: \*/
+          captures:
+            0: punctuation.definition.comment.arduino
+          pop: true
+    - match: (//).*?($\n?|(?=\?>))
+      comment: in-line comment with //
+      scope: comment.line.double-slash.TextoPlano
+      captures:
+        1: punctuation.definition.comment.TextoPlano
+    - match: (?i)\b(?:analogReference|analogRead|analogWrite|analogReadResolution|analogWriteResolution|attachInterrupt|alltrim|at|available)\b
+      comment: funciones A
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:begin|bitRead|bitWrite|bitSet|bitClear|bit)\b
+      comment: funciones B
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:constrain|cos)\b
+      comment: funciones C
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:digitalWrite|digitalRead|delay|delayMicroseconds|detachInterrupt|delstr)\b
+      comment: funciones D
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:end)\b
+      comment: funciones E
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:flush|finduntil|find)\b
+      comment: funciones F
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)\b
+      comment: funciones G
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:highByte)\b
+      comment: funciones H
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:interrupts|isAlphaNumeric|isAlpha|isAscii|isWhitespace|isControl|isDigit|isGraph|isLowerCase|isPrintable|isPunct|isSpace|isUpperCase|isHexadecimalDigit|indexof)\b
+      comment: funciones I
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)
+      comment: funciones J
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)
+      comment: funciones K
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:lcd|lowByte|lower|lcdsay|lcdwrite|lcdcursor|lenstr|lastindexof|length|loop)\b
+      comment: funciones L
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:millis|micros|min|max|map|msg|msgline)\b
+      comment: funciones M
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:noTone|noInterrupts)\b
+      comment: funciones N
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)\b
+      comment: funciones O
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:parseint|parsefloat|pinMode|peek|pow|pulseIn|println|print)\b
+      comment: funciones P
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)\b
+      comment: funciones q
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:randomSeed|random|read|readbytes|readbytesuntil|rat|remove)\b
+      comment: funciones r
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:setcursor|shiftOut|shiftIn|sqrt|sin|substr|setstrat|substring|setcharat|serialevent|settimeout|setup)\b
+      comment: funciones s
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:tan|tone|toint|tolowercase|touppercase|trim)\b
+      comment: funciones t
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:upper)\b
+      comment: funciones u
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:val)\b
+      comment: funciones v
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:write)
+      comment: funciones w
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)
+      comment: funciones x
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)\b
+      comment: funciones y
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)
+      comment: funciones z
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)\b
+      comment: funciones __indocumentadas
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)
+      comment: definicion de constantes caracter
+      scope: support.constant.character.arduino
+    - match: (?i)\b(?:)
+      comment: definicion de constantes logicas
+      scope: support.constant.language.arduino
+    - match: (?i)(\.(t|f)\.)
+      comment: boolean
+      scope: constant.numeric.arduino
+    - match: (?i)\b(?:)\b
+      comment: commands
+      scope: support.function.basic.arduino
+    - match: (?i)\b(?:)\b
+      comment: definition class
+      scope: support.class.arduino
+    - match: (?i)\b(?:)\b
+      comment: options on commands
+      scope: entity.other.attribute-name.arduino
+    - match: (?i)\b()\b
+      scope: entity.other.attribute-name.arduino
+    - match: |-
+        (?x)
+        !(?!=)| # logical-not     right-to-left   right
+        &&    | # logical-and     left-to-right   both
+        \|\|  | # logical-or      left-to-right   both
+      scope: keyword.operator.logical.arduino
+    - match: |-
+        (?x)
+        =(?!=)| # assignment      right-to-left   both
+      scope: keyword.operator.assignment.arduino
+    - match: |-
+        (?x)
+        %=   | # assignment      right-to-left   both
+        &=   | # assignment      right-to-left   both
+        \*=  | # assignment      right-to-left   both
+        \+=  | # assignment      right-to-left   both
+        -=   | # assignment      right-to-left   both
+        /=   | # assignment      right-to-left   both
+        \^=  | # assignment      right-to-left   both
+        \|=  | # assignment      right-to-left   both
+        <<=  | # assignment      right-to-left   both
+        >>=  | # assignment      right-to-left   both
+        >>>= | # assignment      right-to-left   both
+      scope: keyword.operator.assignment.augmented.arduino
+    - match: |-
+        (?x)
+        ~    | # bitwise-not     right-to-left   right
+        <<   | # bitwise-shift   left-to-right   both
+        >>>  | # bitwise-shift   left-to-right   both
+        >>   | # bitwise-shift   left-to-right   both
+        &    | # bitwise-and     left-to-right   both
+        \^   | # bitwise-xor     left-to-right   both
+        \|     # bitwise-or      left-to-right   both
+      scope: keyword.operator.bitwise.arduino
+    - match: |-
+        (?x)
+        <=   | # relational      left-to-right   both
+        >=   | # relational      left-to-right   both
+        <    | # relational      left-to-right   both
+        >      # relational      left-to-right   both
+      scope: keyword.operator.relational.arduino
+    - match: |-
+        (?x)
+        ===  | # equality        left-to-right   both
+        !==  | # equality        left-to-right   both
+        ==   | # equality        left-to-right   both
+        !=     # equality        left-to-right   both
+      scope: keyword.operator.comparison.arduino
+    - match: |-
+        (?x)
+        --   | # decrement       n/a             right-or-left
+        \+\+ | # increment       n/a             right-or-left
+        /    | # division        left-to-right   both
+        %    | # modulus         left-to-right   both
+        \*   | # multiplication  left-to-right   both
+        \+   | # addition        left-to-right   both
+        -      # subtraction     left-to-right   both
+      scope: keyword.operator.arithmetic.arduino
+    - match: '\?|:'
+      scope: keyword.operator.ternary.arduino
+    - match: (?<!\.)\.\.\.
+      scope: keyword.operator.spread.arduino
+    - match: \.
+      scope: keyword.operator.accessor.arduino
+    - match: |-
+        (?x)
+        \[  | #
+        \]  | #
+        \{  | #
+        \}    #
+      scope: variable.parameter.arduino

@@ -4,5 +4,5 @@ sqrt( ${1:nValue} );
 ]]></content>
     <tabTrigger>sqrt</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino sqrt()</description>
+    <description>sqrt()</description>
 </snippet>

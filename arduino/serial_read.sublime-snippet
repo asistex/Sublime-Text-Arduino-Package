@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.read();
 ]]></content>
-    <tabTrigger>sread</tabTrigger>
+    <tabTrigger>serialread</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.read()</description>
+    <description>Serial.read()</description>
 </snippet>

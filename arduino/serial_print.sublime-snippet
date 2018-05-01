@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.print( ${1:val}, ${2:format} );
 ]]></content>
-    <tabTrigger>sprint</tabTrigger>
+    <tabTrigger>serialprint</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.print()</description>
+    <description>Serial.print()</description>
 </snippet>

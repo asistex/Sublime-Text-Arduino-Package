@@ -4,5 +4,5 @@ sizeof( ${1:variable} );
 ]]></content>
     <tabTrigger>sizeof</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino sizeof()</description>
+    <description>sizeof()</description>
 </snippet>

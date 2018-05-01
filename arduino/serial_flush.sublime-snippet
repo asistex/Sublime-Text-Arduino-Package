@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.flush();
 ]]></content>
-    <tabTrigger>sflush</tabTrigger>
+    <tabTrigger>serialflush</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.flush()</description>
+    <description>Serial.flush()</description>
 </snippet>

@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>setup</tabTrigger>
 	<scope>source.arduino</scope>
-	<description>Arduino setup</description>
+	<description>setup</description>
 </snippet>

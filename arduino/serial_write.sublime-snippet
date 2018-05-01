@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.write( ${1:data}) ;
 ]]></content>
-    <tabTrigger>swrite</tabTrigger>
+    <tabTrigger>serialwrite</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.write()</description>
+    <description>Serial.write()</description>
 </snippet>

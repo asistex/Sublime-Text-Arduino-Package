@@ -4,5 +4,5 @@ millis();
 ]]></content>
     <tabTrigger>millis</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino millis()</description>
+    <description>millis()</description>
 </snippet>

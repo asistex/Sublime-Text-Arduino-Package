@@ -4,5 +4,5 @@ micros();
 ]]></content>
     <tabTrigger>micros</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino micros()</description>
+    <description>micros()</description>
 </snippet> 

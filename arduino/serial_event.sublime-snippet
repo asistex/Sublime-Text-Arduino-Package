@@ -5,7 +5,7 @@ void serialEvent()
     ${1://code}
 }
 ]]></content>
-    <tabTrigger>sevent</tabTrigger>
+    <tabTrigger>serialevent</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino serialEvent()</description>
+    <description>serialEvent()</description>
 </snippet>

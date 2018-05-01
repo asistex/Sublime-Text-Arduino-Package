@@ -4,5 +4,5 @@ noTone( ${1:pin} );
 ]]></content>
     <tabTrigger>noTone</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino noTone()</description>
+    <description>noTone()</description>
 </snippet>

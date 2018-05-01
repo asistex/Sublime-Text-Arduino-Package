@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.setTimeout( ${1:time} );
 ]]></content>
-    <tabTrigger>stimeout</tabTrigger>
+    <tabTrigger>serialtimeout</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.setTimeout()</description>
+    <description>Serial.setTimeout()</description>
 </snippet>

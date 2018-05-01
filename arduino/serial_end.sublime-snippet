@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.end(); 
 ]]></content>
-    <tabTrigger>send</tabTrigger>
+    <tabTrigger>serialend</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.end()</description>
+    <description>Serial.end()</description>
 </snippet>

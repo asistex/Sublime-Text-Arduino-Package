@@ -7,5 +7,5 @@ while( ${1:condition} )
 ]]></content>
     <tabTrigger>while</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino while</description>
+    <description>while</description>
 </snippet>

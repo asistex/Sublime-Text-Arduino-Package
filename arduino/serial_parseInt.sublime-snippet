@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.parseInt();
 ]]></content>
-    <tabTrigger>spint</tabTrigger>
+    <tabTrigger>serialparseint</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.parseInt()</description>
+    <description>Serial.parseInt()</description>
 </snippet>

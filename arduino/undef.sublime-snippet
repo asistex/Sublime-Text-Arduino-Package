@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>undef</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Macro undef</description>
+    <description>Macro undef</description>
 </snippet>

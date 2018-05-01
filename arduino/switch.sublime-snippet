@@ -16,5 +16,5 @@ switch (${1:Value})
 ]]></content>
     <tabTrigger>switch</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino switch</description>
+    <description>switch</description>
 </snippet>

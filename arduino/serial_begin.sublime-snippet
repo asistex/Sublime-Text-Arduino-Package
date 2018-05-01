@@ -2,7 +2,7 @@
     <content><![CDATA[
 Serial.begin( ${1:9600} );
 ]]></content>
-    <tabTrigger>sbegin</tabTrigger>
+    <tabTrigger>serialbegin</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Serial.begin()</description>
+    <description>Serial.begin()</description>
 </snippet>

@@ -4,5 +4,5 @@ pinMode( ${1:pin}, ${2:INPUT | OUTPUT} );
 ]]></content>
     <tabTrigger>pinMode</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino pinMode</description>
+    <description>pinMode</description>
 </snippet>
