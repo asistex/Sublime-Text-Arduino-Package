@@ -3,9 +3,13 @@
 if( ${1:condition} )
 {
    ${2:// code}
+} 
+else if( ${3:condition} )
+{
+   ${4:// code}
 }
 ]]></content>
-    <tabTrigger>if</tabTrigger>
+    <tabTrigger>ifelseif</tabTrigger>
     <scope>source.arduino</scope>
-    <description>if</description>
+    <description>if-else-if</description>
 </snippet>

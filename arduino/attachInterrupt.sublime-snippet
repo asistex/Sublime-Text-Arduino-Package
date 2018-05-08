@@ -2,7 +2,7 @@
     <content><![CDATA[
 attachInterrupt( ${1:interrupt}, ${2:functionName}, ${3:mode} );
 ]]></content>
-    <tabTrigger>attachInterrupt</tabTrigger>
+    <tabTrigger>attachinterrupt</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino attachInterrupt()</description>
+    <description>attachInterrupt()</description>
 </snippet>

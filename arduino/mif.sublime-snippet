@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>if</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Macro if</description>
+    <description>#if</description>
 </snippet>

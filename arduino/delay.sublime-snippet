@@ -4,5 +4,5 @@ delay( ${1:miliSeconds} );
 ]]></content>
     <tabTrigger>delay</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino delay()</description>
+    <description>delay()</description>
 </snippet>

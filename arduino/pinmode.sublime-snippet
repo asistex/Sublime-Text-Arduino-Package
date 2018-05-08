@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-pinMode( ${1:pin}, ${2:INPUT | OUTPUT} );
+pinMode( ${1:nPin}, ${2:INPUT} ${3:OUTPUT} );
 ]]></content>
-    <tabTrigger>pinMode</tabTrigger>
+    <tabTrigger>pinmode</tabTrigger>
     <scope>source.arduino</scope>
-    <description>pinMode</description>
+    <description>pinMode()</description>
 </snippet>

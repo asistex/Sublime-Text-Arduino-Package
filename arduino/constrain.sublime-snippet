@@ -4,5 +4,5 @@ constrain( ${1:x}, ${2:a}, ${3:b} );
 ]]></content>
     <tabTrigger>constrain</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino constrain()</description>
+    <description>constrain()</description>
 </snippet>

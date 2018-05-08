@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1:unsigned} long( ${2:x} );
+long( ${2:x} );
 ]]></content>
     <tabTrigger>long</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino long()</description>
+    <description>long()</description>
 </snippet>

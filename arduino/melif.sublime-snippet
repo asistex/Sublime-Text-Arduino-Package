@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>elif</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Macro elif</description>
+    <description>#elif</description>
 </snippet>

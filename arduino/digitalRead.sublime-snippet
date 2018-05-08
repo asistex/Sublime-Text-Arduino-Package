@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-digitalRead($ {1:pin} );
+digitalRead( ${1:nPin} );
 ]]></content>
-    <tabTrigger>digitalRead</tabTrigger>
+    <tabTrigger>digitalread</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino digitalRead</description>
+    <description>digitalRead</description>
 </snippet>

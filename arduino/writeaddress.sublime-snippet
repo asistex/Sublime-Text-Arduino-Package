@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+WriteAddress( ${1:address}, ${2:val} );
+]]></content>
+    <tabTrigger>writeaddress</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Writeaddress()</description>
+</snippet>

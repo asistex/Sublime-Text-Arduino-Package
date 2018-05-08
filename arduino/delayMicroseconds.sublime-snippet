@@ -2,7 +2,7 @@
     <content><![CDATA[
 delayMicroseconds( ${1:us} );
 ]]></content>
-    <tabTrigger>delayMicroseconds</tabTrigger>
+    <tabTrigger>delaymicroseconds</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino delayMicroseconds()</description>
+    <description>delayMicroseconds()</description>
 </snippet>

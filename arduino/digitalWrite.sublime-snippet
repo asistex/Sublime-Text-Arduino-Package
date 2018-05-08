@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-digitalWrite( ${1:nDigitalPinOutput}, ${2:HIGH | LOW} );  
+digitalWrite( ${1:nPin}, ${2:HIGH|LOW} );  
 ]]></content>
-    <tabTrigger>digitalWrite</tabTrigger>
+    <tabTrigger>digitalwrite</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino digitalWrite</description>
+    <description>digitalWrite</description>
 </snippet>

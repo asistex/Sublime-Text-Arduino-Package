@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+begin( ${1:n} ); /* Serial. nBaudios | lcd. nCol, nRow */
+]]></content>
+    <tabTrigger>begin</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>begin()</description>
+</snippet>

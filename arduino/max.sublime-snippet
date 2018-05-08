@@ -4,5 +4,5 @@ max( ${1:x}, ${2:y} );
 ]]></content>
     <tabTrigger>max</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino max()</description>
+    <description>max()</description>
 </snippet>

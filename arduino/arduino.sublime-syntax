@@ -27,7 +27,7 @@ contexts:
     - match: '("[^"]*")'
       comment: cadenas comillas dobles
       scope: string.quoted.double.arduino
-    - match: (?i)\b(?:define|do|case|endcase|otherwise|switch|if|else|else if|endif|while|end|exit|return|for|next|include|ifdef|stdout|ifndef)\b
+    - match: (?i)\b(?:break|define|do|case|endcase|otherwise|switch|if|else|else if|endif|while|end|exit|return|for|next|include|ifdef|stdout|ifndef|void|setup|loop)\b
       comment: sentencias de control
       scope: keyword.control.arduino
     - match: (?i)\b(?:HIGH|LOW|INPUT|OUTPUT|INPUT_PULLUP|LED_BUILTIN)\b
@@ -36,7 +36,7 @@ contexts:
     - match: (?i)\b(?:and|or|not|!)\b
       comment: operadores
       scope: keyword.operator.arduino
-    - match: (?i)\b(?:default|field|static|external|request|private|global|int|unsigned|char|long|void|boolean|word|string|string|array|serial|stream|keyboard|mouse|print|lcd)\b
+    - match: (?i)\b(?:default|field|static|external|request|private|global|int|unsigned|char|long|boolean|word|string|string|array|serial|stream|keyboard|mouse|print|lcd)\b
       comment: declaraciones
       scope: storage.type.arduino
     - match: /\*
@@ -54,16 +54,16 @@ contexts:
       scope: comment.line.double-slash.TextoPlano
       captures:
         1: punctuation.definition.comment.TextoPlano
-    - match: (?i)\b(?:analogReference|analogRead|analogWrite|analogReadResolution|analogWriteResolution|attachInterrupt|alltrim|at|available)\b
+    - match: (?i)\b(?:analogreference|analogread|analogwrite|analogreadresolution|analogwriteresolution|attachinterrupt|alltrim|at|available)\b
       comment: funciones A
       scope: support.function.basic.arduino
     - match: (?i)\b(?:begin|bitRead|bitWrite|bitSet|bitClear|bit|byte|begintransmission)\b
       comment: funciones B
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:constrain|cos|const)\b
+    - match: (?i)\b(?:constrain|cos|const|clear)\b
       comment: funciones C
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:digitalWrite|digitalRead|delay|delayMicroseconds|detachInterrupt|delstr)\b
+    - match: (?i)\b(?:digitalwrite|digitalread|delay|delaymicroseconds|detachinterrupt|delstr)\b
       comment: funciones D
       scope: support.function.basic.arduino
     - match: (?i)\b(?:endtransmission|end)\b
@@ -78,7 +78,7 @@ contexts:
     - match: (?i)\b(?:highByte)\b
       comment: funciones H
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:interrupts|isAlphaNumeric|isAlpha|isAscii|isWhitespace|isControl|isDigit|isGraph|isLowerCase|isPrintable|isPunct|isSpace|isUpperCase|isHexadecimalDigit|indexof)\b
+    - match: (?i)\b(?:interrupts|isalphanumeric|isalpha|isascii|iswhitespace|iscontrol|isdigit|isgraph|islowercase|isprintable|ispunct|isspace|isuppercase|ishexadecimaldigit|indexof)\b
       comment: funciones I
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)
@@ -87,16 +87,16 @@ contexts:
     - match: (?i)\b(?:)
       comment: funciones K
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:lcd|lowByte|lower|lcdsay|lcdwrite|lcdcursor|lenstr|lastindexof|length|loop)\b
+    - match: (?i)\b(?:lcd|lowByte|lower|lcdsay|lcdwrite|lcdcursor|lenstr|lastindexof|length)\b
       comment: funciones L
       scope: support.function.basic.arduino
     - match: (?i)\b(?:millis|micros|min|max|map|msg|msgline)\b
       comment: funciones M
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:noTone|noInterrupts)\b
+    - match: (?i)\b(?:notone|nointerrupts|nocursor)\b
       comment: funciones N
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:onreceive)\b
+    - match: (?i)\b(?:onreceive|onrequest)\b
       comment: funciones O
       scope: support.function.basic.arduino
     - match: (?i)\b(?:parseint|parsefloat|pinMode|peek|pow|pulseIn|println|print)\b
@@ -105,10 +105,10 @@ contexts:
     - match: (?i)\b(?:)\b
       comment: funciones Q
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:readstring|randomSeed|random|read|readbytes|readbytesuntil|rat|remove|requestfrom)\b
+    - match: (?i)\b(?:readaddress|readstring|randomSeed|random|read|readbytes|readbytesuntil|rat|remove|requestfrom)\b
       comment: funciones R
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:setcursor|shiftOut|shiftIn|sqrt|sin|substr|setstrat|substring|setcharat|serialevent|settimeout|setup)\b
+    - match: (?i)\b(?:setcursor|shiftOut|shiftIn|sqrt|sin|substr|setstrat|substring|setcharat|serialevent|settimeout)\b
       comment: funciones S
       scope: support.function.basic.arduino
     - match: (?i)\b(?:tan|tone|toint|tolowercase|touppercase|trim|tochararray)\b
@@ -120,7 +120,7 @@ contexts:
     - match: (?i)\b(?:val)\b
       comment: funciones V
       scope: support.function.basic.arduino
-    - match: (?i)\b(?:wire|write)
+    - match: (?i)\b(?:wire|writeaddress|write)
       comment: funciones W
       scope: support.function.basic.arduino
     - match: (?i)\b(?:)

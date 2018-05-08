@@ -4,5 +4,5 @@ boolean ${1:x} = ${2:value};
 ]]></content>
     <tabTrigger>boolean</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino def boolean</description>
+    <description>def boolean</description>
 </snippet>

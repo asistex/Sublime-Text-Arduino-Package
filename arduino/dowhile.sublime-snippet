@@ -2,11 +2,10 @@
     <content><![CDATA[
 do
 {
-    ${1:// code}
+   ${1:// code}
 } while( ${2:condition} );
-
 ]]></content>
     <tabTrigger>dowhile</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino do-while</description>
+    <description>do-while</description>
 </snippet>

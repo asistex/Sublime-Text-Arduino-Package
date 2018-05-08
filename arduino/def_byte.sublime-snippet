@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-byte( ${1:x} );
+${1:const} byte ${2:x} = ${3:value};
 ]]></content>
     <tabTrigger>byte</tabTrigger>
     <scope>source.arduino</scope>
-    <description>byte()</description>
+    <description>def const byte</description>
 </snippet>

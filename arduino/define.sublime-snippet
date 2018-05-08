@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>define</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Macro define</description>
+    <description>#define</description>
 </snippet>

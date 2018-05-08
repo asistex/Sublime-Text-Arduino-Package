@@ -4,5 +4,5 @@ detachInterrupt( ${1:interrupt} );
 ]]></content>
     <tabTrigger>detachInterrupt</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino detachInterrupt()</description>
+    <description>detachInterrupt()</description>
 </snippet>

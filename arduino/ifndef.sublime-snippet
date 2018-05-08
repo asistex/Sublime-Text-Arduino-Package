@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>ifndef</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino Macro ifndef</description>
+    <description>#ifndef</description>
 </snippet>

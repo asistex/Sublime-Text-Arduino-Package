@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wire.onRequest( ${1:onRequestEvent} );
+]]></content>
+    <tabTrigger>wireonrequest</tabTrigger>
+    <scope>source.arduino</scope>
+    <description>Wire.onRequest()</description>
+</snippet>

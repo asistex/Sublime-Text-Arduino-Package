@@ -2,7 +2,7 @@
     <content><![CDATA[
 analogWrite( ${1:pin}, ${2:value} );
 ]]></content>
-    <tabTrigger>analogWrite</tabTrigger>
+    <tabTrigger>analogwrite</tabTrigger>
     <scope>source.arduino</scope>
-    <description>Arduino analogWrite</description>
+    <description>analogWrite()</description>
 </snippet>
